@@ -4,7 +4,7 @@ import { doc, getDoc } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-
 document.addEventListener('DOMContentLoaded', async function () {
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     if (isLoggedIn !== 'true') {
-        window.location.href = '../login/index.html';
+        window.location.href = '../index.html';
         return;
     }
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('logoutButton').addEventListener('click', function () {
         localStorage.removeItem('isLoggedIn');
         localStorage.removeItem('userName');
-        window.location.href = '../login/index.html';
+        window.location.href = '../index.html';
     });
 
     const subMenu = document.getElementById("subMenu");
