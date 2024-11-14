@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/assets/images/pizza-solid-24.png">
+</head>
+<body class="body_login">
+    <div class="wrapper_login">
+        <form id="loginForm" name="loginForm">
+            <h1>Login</h1>
+            <div class="input-box_login">
+                <input type="text" id="email" placeholder="Email" name="email" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box_login">
+                <input type="password" id="password" placeholder="Password" name="password" required>
+                <i class='bx bx-lock-alt'></i>            
+            </div>
+            <div class="remember-forgot_login">
+                <label><input type="checkbox">Recuerdame</label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="submit" class="btn_login">Login</button>
+            <div class="register-link_login">
+                <p>¿No tienes cuenta? <a href="/registro/registro.html">Registrate</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="/login/firebase_auth.js" type="module"></script>
+</body>
+</html>

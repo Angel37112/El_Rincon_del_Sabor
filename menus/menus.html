@@ -1,0 +1,2514 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Rincón del Sabor</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="/assets/images/pizza-solid-24.png">
+    </head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class='bx bx-help-circle'></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-7890</span>
+                    </div>
+                </div>
+    
+                <div class="container-logo">
+                    <i class='bx bxs-pizza'></i>
+                    <h1 class="logo"><a href="/home/home.html">El Rincón del Sabor</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <div class="sub-menu">
+                            <i class='bx bx-exit' ></i>
+                            <button id="logoutButton" class="logoutButton_home">Cerrar Sesión</button>
+                        </div>
+                    </div>
+                    <img class="img-user" src="/assets/icons/user.svg" id="toggleButton">
+                    <img class="img-basket" src="/assets/icons/basket.svg">
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="/home/home.html">Inicio</a></li>
+                    <li><a href="/menus/menus.html">Menús</a></li>
+                    <li><a href="/preguntas/preguntas.html">Preguntas Frecuentes</a></li>
+                    <li><a href="/nosotros/nosotros.html">Nosotros</a></li>
+                </ul>
+    
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class='bx bx-search'></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+
+        <section class="container top-categories">
+			<div class="header-category">
+				<h1 class="heading-1">Menús</h1>
+			</div>
+			<div class="container-categories">
+				<div class="card-category category-moca">
+					<p>Viernes</p>
+					<a href="#viernes"><span>Ver más</span></a>
+				</div>
+				<div class="card-category category-expreso">
+					<p>Sábado</p>
+					<a href="#sabado"><span>Ver más</span></a>
+				</div>
+				<div class="card-category category-capuchino">
+					<p>Domingo</p>
+					<a href="#domingo"><span>Ver más</span></a>
+				</div>
+			</div>
+		</section>	
+
+        <!-- Tarjetas -->
+        <div class="top-products">
+            <!-- Viernes -->
+            <div class="day-menu" id="viernes">
+                <h1 class="heading-1">Viernes</h1>
+                <div class="container-options">
+                    <span id="comidas-btn-viernes" class="active">Comidas</span>
+                    <span id="bebidas-btn-viernes">Bebidas</span>
+                    <span id="postres-btn-viernes">Postres</span>
+                </div>
+        
+                <div class="container-products" id="productos-viernes">
+                    <!-- Comidas -->
+                    <!-- Comida 1 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Hamburguesa.png" alt="Hamburguesa" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Hamburguesa</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$35.00</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Comida 2 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Hamburguesa con papas.png" alt="Hamburguesa con papas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Hamburguesa con papas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$50.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Comida 3 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Orden de alitas.png" alt="Orden de alitas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Orden de alitas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$50.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Comida 4 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Salchipapas.png" alt="Salchipapas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Orden de salchipapas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$30.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Comida 5 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Papas a la francesa.png" alt="Papas a la francesa" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Papas a la francesa</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Comida 6 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Nuggets.png" alt="Nuggets" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Orden de Nuggets</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$30.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Comida 7 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tortas.png" alt="Tortas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Torta</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$35.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Comida 8 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Hot Dogs.png" alt="Hot Dogs" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Hot Dog</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebidas -->
+                    <!-- Bebida 1 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola.png" alt="Coca-Cola" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 2 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pepsi.png" alt="Pepsi" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pepsi</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 3 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sprite.png" alt="Sprite" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sprite</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 4 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fanta.png" alt="Fanta" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fanta</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 5 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola Light.png" alt="Coca-Cola Light" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola Light</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 6 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Agua Ciel.png" alt="Agua" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Agua Ciel</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 7 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Jugo.png" alt="Jugo" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Jugo Jumex</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 8 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Cafe.png" alt="Cafe" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Café</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postres -->
+                    <!-- Postre 1 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Chocolate.png" alt="Pastel de Chocolate" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Chocolate</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 2 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Choco Flan.png" alt="Choco Flan" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Choco Flan</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 3 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Queso.png" alt="Pastel de Queso" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Queso</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 4 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Helado.png" alt="Helado" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Helado</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 5 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fresas con Crema.png" alt="Fresas con Crema" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fresas con crema</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 6 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tarta de Manzana.png" alt="Tarta de Manzana" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tarta de manzana</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 7 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gelatina.png" alt="Gelatina" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gelatina</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 8 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Brownies.png" alt="Brownies" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Brownies</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sábado -->
+            <div class="day-menu" id="sabado">
+                <h1 class="heading-1">Sábado</h1>
+                <div class="container-options">
+                    <span id="comidas-btn-sabado" class="active">Comidas</span>
+                    <span id="bebidas-btn-sabado">Bebidas</span>
+                    <span id="postres-btn-sabado">Postres</span>
+                </div>
+
+                <div class="container-products" id="productos-sabado">
+                    <!-- Comidas -->
+                    <!-- Comida 1 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sopes.png" alt="Sopes" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sopes</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 2 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Enchiladas.png" alt="Enchiladas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Enchiladas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 3 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Quesadillas.png" alt="Quesadillas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Quesadillas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 4 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gringas.png" alt="Gringas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gringas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$30.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 5 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gorditas.png" alt="Gorditas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gorditas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$15.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 6 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tacos.png" alt="Tacos" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tacos</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$13.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 7 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sincronizadas.png" alt="Sincronizadas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sincronizadas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 8 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tostadas.png" alt="Tostadas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tostadas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebidas -->
+                    <!-- Bebida 1 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola.png" alt="Coca-Cola" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 2 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pepsi.png" alt="Pepsi" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pepsi</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 3 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sprite.png" alt="Sprite" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sprite</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 4 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fanta.png" alt="Fanta" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fanta</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 5 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola Light.png" alt="Coca-Cola Light" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola Light</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 6 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Agua Ciel.png" alt="Agua" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Agua Ciel</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 7 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Jugo.png" alt="Jugo" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Jugo Jumex</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 8 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Cafe.png" alt="Cafe" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Café</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postres -->
+                    <!-- Postre 1 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Chocolate.png" alt="Pastel de Chocolate" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Chocolate</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 2 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Choco Flan.png" alt="Choco Flan" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Choco Flan</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 3 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Queso.png" alt="Pastel de Queso" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Queso</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 4 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Helado.png" alt="Helado" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Helado</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 5 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fresas con Crema.png" alt="Fresas con Crema" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fresas con crema</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 6 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tarta de Manzana.png" alt="Tarta de Manzana" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tarta de manzana</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 7 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gelatina.png" alt="Gelatina" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gelatina</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 8 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Brownies.png" alt="Brownies" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Brownies</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Domingo -->
+            <div class="day-menu" id="domingo">
+                <h1 class="heading-1">Domingo</h1>
+                <div class="container-options">
+                    <span id="comidas-btn-domingo" class="active">Comidas</span>
+                    <span id="bebidas-btn-domingo">Bebidas</span>
+                    <span id="postres-btn-domingo">Postres</span>
+                </div>
+
+                <div class="container-products" id="productos-domingo">
+                    <!-- Comidas -->
+                    <!-- Comida 1 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sopes.png" alt="Sopes" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sopes</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 2 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Enchiladas.png" alt="Enchiladas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Enchiladas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 3 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Quesadillas.png" alt="Quesadillas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Quesadillas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 4 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gringas.png" alt="Gringas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gringas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$30.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 5 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gorditas.png" alt="Gorditas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gorditas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$15.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 6 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tacos.png" alt="Tacos" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tacos</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$13.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 7 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sincronizadas.png" alt="Sincronizadas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sincronizadas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Comida 8 -->
+                    <div class="card-product comida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tostadas.png" alt="Tostadas" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tostadas</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebidas -->
+                    <!-- Bebida 1 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola.png" alt="Coca-Cola" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 2 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pepsi.png" alt="Pepsi" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pepsi</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 3 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Sprite.png" alt="Sprite" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Sprite</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 4 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fanta.png" alt="Fanta" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fanta</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Bebida 5 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Coca-Cola Light.png" alt="Coca-Cola Light" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Coca-Cola Light</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 6 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Agua Ciel.png" alt="Agua" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Agua Ciel</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 7 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Jugo.png" alt="Jugo" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Jugo Jumex</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+                    <!-- Bebida 8 -->
+                    <div class="card-product bebida">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Cafe.png" alt="Cafe" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Café</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postres -->
+                    <!-- Postre 1 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Chocolate.png" alt="Pastel de Chocolate" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Chocolate</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 2 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Choco Flan.png" alt="Choco Flan" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Choco Flan</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 3 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Pastel Queso.png" alt="Pastel de Queso" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Pastel de Queso</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+        
+                    <!-- Postre 4 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Helado.png" alt="Helado" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Helado</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 5 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Fresas con Crema.png" alt="Fresas con Crema" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Fresas con crema</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 6 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Tarta de Manzana.png" alt="Tarta de Manzana" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Tarta de manzana</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 7 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Gelatina.png" alt="Gelatina" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Gelatina</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+
+					<!-- Postre 8 -->
+                    <div class="card-product postre">
+                        <div class="container-img">
+                            <img src="/assets/images/Card Brownies.png" alt="Brownies" />
+                            <div class="button-group">
+                                <span>
+                                    <i class='bx bx-search'></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-heart' ></i>
+                                </span>
+                                <span>
+                                    <i class='bx bx-share-alt' ></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <h3>Brownies</h3>
+                            <span class="add-cart">
+                                <i class='bx bx-basket'></i>
+                            </span>
+                            <p class="price">$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Calle Francisco y Madero, Laguna de Vaquerías, San Juan del Río, QRO, CP 76820
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Email: elrincondelsabor@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class='bx bxl-facebook' ></i>
+							</span>
+							<span class="twitter">
+								<i class='bx bxl-twitter' ></i>
+							</span>
+							<span class="youtube">
+								<i class='bx bxl-youtube' ></i>
+							</span>
+							<span class="whatsapp">
+								<i class='bx bxl-whatsapp' ></i>
+							</span>
+							<span class="instagram">
+								<i class='bx bxl-instagram' ></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Enviar</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Ángel García Mendoza &copy; 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+    </header>
+    <script src="menus.js"></script>
+</body>
+</html>
